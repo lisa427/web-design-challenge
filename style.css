@@ -1,0 +1,25 @@
+body {
+    font-family: Calibri, Arial, sans-serif;
+    background: lightgrey;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-light {
+    background: white;
+}
+
+.navbar-brand {
+    background: palevioletred;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+@media (max-width: 992px) {
+.navbar {
+    background: palevioletred;
+    }
+}
