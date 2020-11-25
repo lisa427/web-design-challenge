@@ -41,7 +41,9 @@ body {
 .viz-box {
     padding: 15px;
     background: white;
+    text-align: center;
 }
+
 
 @media (max-width: 576px) {
     .container {
