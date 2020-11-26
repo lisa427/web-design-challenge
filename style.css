@@ -1,6 +1,6 @@
 body {
     font-family: Calibri, Arial, sans-serif;
-    background: lightgrey;
+    background: #AAABB8;
 }
 
 .navbar {
@@ -8,19 +8,34 @@ body {
 }
 
 .navbar-light {
-    background: white;
+    background: #FFFFFF;
+}
+
+.navbar-light .navbar-brand {
+    color: #FFFFFF;
 }
 
 .navbar-brand {
-    background: palevioletred;
+    background: #29648A;
     padding-left: 15px;
     padding-right: 15px;
 }
 
+
 @media (max-width: 768px) {
 .navbar {
-    background: palevioletred;
+    background: #29648A;
     }
+}
+
+h1 {
+    color: #29648A;
+    font-size: 35px;
+}
+
+h2 {
+    color: #29648A;
+    font-size: 25px;
 }
 
 .container {
@@ -30,7 +45,7 @@ body {
 
 .main-box {
     padding: 15px;
-    background: white;
+    background: #FFFFFF;
 }
 
 .main-box img{
@@ -40,10 +55,9 @@ body {
 
 .viz-box {
     padding: 15px;
-    background: white;
+    background: #FFFFFF;
     text-align: center;
 }
-
 
 @media (max-width: 576px) {
     .container {
@@ -64,11 +78,6 @@ body {
         }
     }
 
-.comparison-box {
-    padding: 15px;
-    background: white;
-}
-
 @media (max-width: 992px) {
     .comp-plot {
         height: 228px;
@@ -76,7 +85,3 @@ body {
         }
     }
 
-.data-box {
-    padding: 15px;
-    background: white;
-}
